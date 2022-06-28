@@ -1,4 +1,4 @@
-// let carrito = [];
+// let carrito = [];  //descomentar despues para revisar carrito
 
 class Juego {
     constructor(titulo, imagen, descripcion, genero, desarrollador, editor, franquicia, lanzamiento, link){
