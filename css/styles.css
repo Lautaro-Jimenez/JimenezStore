@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #4F5D75;
     font-size: 20px;
 }
 
 a{
     text-decoration: none;
     padding: 5px;
-    background-color: white;
+    background-color: green;
     color: black;
 }
 
@@ -23,7 +23,7 @@ header {
     padding: 20px 10%;
     box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
-    background-color: #ebebeb;
+    background-color: #BFC0C0;
 }
 .input {
     width: 50% !important;
@@ -39,8 +39,8 @@ h1 {
     border: none;
     color: #000;
     font-size: 40px;
-    background-color: #ebebeb;
-    border-radius: 50%;
+    background-color: #bfc0c0;
+    border-radius: 10%;
     padding: 10px 20px;
     transition: all 0.3s;
 }
@@ -52,7 +52,7 @@ h1 {
 }
 
 #contenedor_de_juegos {
-    background-color: blanchedalmond;
+    background-color: #EF8354;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -111,7 +111,7 @@ p {
 
 .probarFooter {
     padding: 30px;
-    background-color: #ebebeb;
+    background-color: #2D3142;
     text-align: center;
 }
 
@@ -119,5 +119,41 @@ p {
     color: red;
 }
 
-/* aaaaaaaaaaaaa */
 
+#formulario-usuario {
+    border: 5px solid black;
+    background-color: aquamarine;
+}
+
+#filtros {
+    border: 3px solid black;
+    background-color: aquamarine;
+}
+
+#formulario-juego {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario-juego input {
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#formulario-juego button {
+    border-radius: 15%;
+    padding: 10px;
+    background-color: #EF8354;
+    margin: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#listaDeJuegos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    font-size: 150%;
+}
